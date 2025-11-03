@@ -53,7 +53,7 @@ from vsr.utils_vsr import (
 
 
 @torch.no_grad()
-def upscale_data(args, device='cpu'):
+def upscale_data(args, device='cuda'):
     (
         spynet_path, 
         model_path, 
@@ -64,7 +64,7 @@ def upscale_data(args, device='cpu'):
         num_images_in_sequence, 
         similarity, 
         thres_values
-    ) = setup_paths_and_params(args) # 读取配置文件， 处理路径， 写得很烂， 可能在水工作量
+    ) = setup_paths_and_params(args) # 读取配置文件， 处理路径
 
     print(f"\nspynet_path: {spynet_path}\nmodel_path: {model_path}\n \
           lr_trainset_path: {lr_trainset_path}\ntransform_path: {transform_path} \
