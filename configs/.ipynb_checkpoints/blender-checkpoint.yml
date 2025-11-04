@@ -1,6 +1,7 @@
 hr_source_dir: ../NERF_SYNTHETIC
 lr_source_dir: ../OUTPUTS/LR
 vsr_save_dir: ../OUTPUTS/HR
+model_path: ../OUTPUTS/3DGS
 video_save_path: Null
 vsr_model: psrt
 spynet_path: Null

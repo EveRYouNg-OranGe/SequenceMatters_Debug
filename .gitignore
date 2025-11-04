@@ -1,2 +1,10 @@
 vsr/psrt/experiments/pretrained_models/PSRT_Vimeo.pth
 vsr/psrt/experiments/pretrained_models/PSRT_REDS.pth
+./vsr/__pycache__/
+./utils/__pycache__/
+./vsr/psrt/archs/__pycache__/
+./scene/__pycache__/
+./lpipsPyTorch/__pycache__/
+./lpipsPyTorch/modules/__pycache__/
+./gaussian_renderer/__pycache__/
+./arguments/__pycache__/
