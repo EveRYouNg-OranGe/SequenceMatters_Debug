@@ -139,7 +139,6 @@ if TENSORBOARD_FOUND:
 else:
     print("Tensorboard not available: not logging progress")
 
-高斯模型，需进一步了解
 # In[5]:
 
 
